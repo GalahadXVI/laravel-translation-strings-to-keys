@@ -7,12 +7,12 @@ This quickly hacked up Python script scans a specified PHP or Blade file to repl
 - Finds hardcoded strings within `__()` calls.
 - Prompts for each detected string, suggesting a default key derived from the first four words. You can customize the key or press Enter to accept the default.
 - Adds new key-value pairs to the specified translation file without removing existing entries.
-- Preserves HTML tags, attributes, and placeholders like `:name` or `:level`.
+- Preserves HTML tags, attributes, and placeholders like `:name` or `:quantity`.
 
 ## Requirements
 
 - **Python 3**
-- **Laravel Project with a Translations Directory**: Laravel’s `lang` directory (e.g., `lang`).
+- **Laravel Project with a Translations Directory**: Laravel’s `lang` directory.
 
 ## Usage
 
